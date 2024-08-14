@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tristar Detector</title>
+    <title>Sumber Sarana Solusindo</title>
     <!-- CSS Link -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/style.css">
     <!-- Add Icon URL Bar -->
-    <link rel="icon" href="assets/img/logo-url-new.png" type="image/icon type">
+    <link rel="icon" href="" type="image/icon type">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
@@ -22,7 +22,8 @@
                         inter: ['Inter+Tight'],
                         montserrat: ['Montserrat'],
                         poppins: ['Poppins'],
-                        roboto: ['Roboto']
+                        roboto: ['Roboto'],
+                        quicksand: ['Quicksand']
                     },
                 },
             },
@@ -32,10 +33,11 @@
  
 <body>
     <!-- Navbar Start -->
-    <nav class="bg-white border-gray-200 shadow-lg font-poppins">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-5">
+    <nav class="bg-opacity-0 font-poppins">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-6">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="assets/img/BIG TEXT.png" class="h-11 md:h-14 ml-4 md:-mt-2" alt="Tristar Logo" />
+                <!-- <img src="" class="h-11 md:h-14 ml-4 md:-mt-2" alt="Triple S Logo" /> -->
+                <p class="self-center text-xl font-medium whitespace-nowrap ">Sumber Sarana Solusindo</p>
             </a>
             <button data-collapse-toggle="navbar-dropdown" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -47,28 +49,21 @@
             </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
                 <ul
-                    class="flex flex-col font-normal p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    class="flex flex-col font-normal p-4 md:p-0 mt-4 rounded-lg bg-opacity-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 ">
                     <li>
                         <a href="#home" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
-                            aria-current="page">Home</a>
+                        aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+                        <a href="#services" class="block py-2 px-3 text-white font-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Services</a>
                     </li>
                     <li>
-                        <a href="product-details-page.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Product</a>
+                        <a href="#projects" class="block py-2 px-3 text-white font-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Projects</a>
                     </li>
                     <li>
-                        <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
+                        <a href="#gallery" class="block py-2 px-3 text-white font-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Gallery</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-
-        <!-- WhatsApp Direct Link -->     
-        <div class="z-30 relative">
-            <div class="fixed right-7 bottom-5 bg-gradient-to-b from-blue-900 to-blue-700 h-16 w-16 rounded-2xl shadow-lg items-center">
-                <a href="https://wa.me/+6285190060033"><img class="animate-pulse object-cover mx-auto mt-4 w-8 h-8" src="assets/img/phone_11433243.png" alt=""></a>
             </div>
         </div>
     </nav>
@@ -77,72 +72,98 @@
 
     <!-- Jumbotron Home Section Start -->
     <section id="home"
-        class="font-poppins bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
-            <a href="#product" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 mt-10 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
-                <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span
-                    class="text-sm font-medium">Our product was launched! See what's new</span>
-                <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 9 4-4-4-4" />
-                </svg>
-            </a>
-            <h1 class="mt-8 mb-4 text-3xl font-bold md:font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                We invest in the world’s potential</h1>
-            <p class="mb-20 text-md font-light text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-                We established our enterprise to design, develop, and market a new generation of geophysical detection devices.
+        class="bg-gradient-to-b from-blue-300 to-blue-900 -mt-24">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <img class="ml-20 object-cover w-full h-full md:h-max md:w-[60rem] opacity-25" src="assets/img/worldmap.png" alt="About Image">
+
+            <h1 class="font-montserrat -mt-[24rem] mb-4 text-4xl font-bold md:font-bold tracking-normal leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+                Your Trustworthy <span class="text-yellow-300">Hi-Tech</span><br> Building Equipment Service</h1>
+            <p class="font-sans mb-56 text-xs font-light text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+                We provide Technology based mechanical & electrical services.
             </p>
-            <a href="#product">
-                <button type="button" class="p-4 px-10 me-2 mb-28 md:mb-20 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See Product</button>
-            </a>
+
+            <div class="mx-auto h-16 w-40 mt-28">
+                <a href="#projects">
+                    <p class="text-white text-sm mx-auto">Scroll to Explore</p>
+                    <img class="animate-pulse object-cover mx-auto w-8 h-8" src="assets/img/scroll-icon.png" alt="Scroll to Explore">
+                </a>
+            </div>
+            
         </div>
     </section>
     <!-- Jumbotron Home Section End -->
 
 
     <!-- About Us Section Start -->
-    <section id="about" class="bg-white font-poppins mt-20 md:my-20 px-4 md:px-0">
-        <div class="mx-auto flex flex-col items-center bg-white md:flex-row md:max-w-6xl">
-            <img class="object-cover w-full rounded-xl h-full md:h-max md:w-1/2 shadow-xl" src="assets/img/ABOUT.png" alt="About Image">
-            <div class="flex flex-col justify-between p-8 md:p-14 leading-normal">
-                <h3 class="mb-1 text-1xl md:text-1xl font-semibold font-montserrat tracking-tight text-gray-900">ABOUT US</h3>
-                <h1 class="mb-2 text-2xl md:text-3xl font-bold tracking-tight text-blue-950">Tristar Anugrah Perkasa</h1>
-                <p class="mb-3 font-light text-gray-700">Established in 2022 and based in Indonesia, we specializes in the research, development, and manufacturing of ground water source detectors designed with ease of use to meet the needs of borehole drillers. Our jorney began in 2015 with a clear vision to 
-                    create a simple, quick, and accurate ground water source detector product that is not only effective but also user-friendly, allowing borehole drillers to locate water sources with ease and precision. We are committed to delivering high quality product that enhances the success of drilling operations, ultimately contributing to sustainable water resource management.</p>
+    <section id="projects" class="bg-white font-poppins mt-20 md:my-20 px-4 md:px-0">
+        <div class="mx-auto mb-5 max-w-screen-sm text-center lg:mb-10">
+            <h2 class="mb-4 text-3xl tracking-tight font-medium text-gray-900">Here are our active projects.</h2>
+        </div> 
+        <div class="flex items-center font-quicksand">
+            <div class="bg-blue-800 h-72 w-96 p-3 mx-auto rounded-2xl bg-cover bg-center" style="background-image: url(assets/img/skycrapers_one_new.jpg);">
+                <p class="text-center text-white font-medium mt-48 text-xl">Essence Darmawangsa</p>
             </div>
-        </div>        
+            <div class="bg-red-800 h-72 w-96 p-3 mx-auto rounded-2xl -ml-60 bg-cover bg-center" style="background-image: url(assets/img/skyscraper-two_new.jpg);">
+                <p class="text-center text-white font-medium mt-48 text-xl">Niffaro Park</p>
+            </div>
+        </div>
     </section>
     <!-- About Us Section End -->
 
 
-
-    <!-- Product Section -->
-    <section id="product" class="font-poppins mt-3 md:mt-28 mb-16 md:my-20 px-6 md:px-64 bg-white">
-        <div class="mx-auto flex flex-col items-center bg-white md:flex-row md:max-w-6xl">
-            <div class="container mx-auto flex flex-col items-center md:items-start mb-2 md:mb-10">
-                <h1 class="text-2xl md:text-6xl font-bold font-montserrat mx-auto md:mx-0"><span class="hidden md:inline-flex bg-yellow-300">01</span> Our Product.</h1>
-                <p class="text-sm md:text-lg font-normal font-poppins text-gray-600 mt-2">All of our product are Results Oriented</p>
-            </div>
-            <div class="font-poppins mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-xl shadow-xl mt-3 md:mt-0">
-                <a href="#">
-                    <img class="rounded-xl mx-auto pb-4" src="assets/img/product-image-one-1.png" alt="Product Image" />
-                </a>
-                <div class="px-5 pb-5">
+    <!-- Product Section Start -->
+    <section id="details" class="font-poppins mt-3 md:mt-36 mb-16 md:my-20">
+        <div class="ml-24">
+            <p class="mb-6 font-poppins text-gray-900 font-bold text-3xl">Get to the details.</p>
+        </div>
+        <div class="ml-24 mx-auto w-full flex flex-nowrap flex-col md:flex-row md:max-w-6xl">
+            <div class="font-poppins flex-row h-96 w-64 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/maintenance.jpg);">
+                <div class="px-5 pb-5 justify-end">
                     <a href="#">
-                        <h5 class="text-xl md:text-2xl font-bold tracking-tight text-gray-900">Aerox Water Detector</h5>
-                        <p class="text-sm mb-6 mt-1.5 font-normal text-gray-700">Your simple, quick, and accurate solution for locating ground water sources.</p>
+                        <h5 class="text-lg font-light tracking-tight text-white mt-72">Preventive Maintenance</h5>
                     </a>
-                    <div class="flex items-center justify-between">
-                        <span class="text-2xl md:text-3xl font-normal text-slate-700">$600</span>
-                        <a href="product-details-page.html" class="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-md text-sm px-5 py-2.5 text-center shadow-lg md:shadow-xl">Read more</a>
+                    <div class="flex items-center justify-between mt-2">
+                        <button data-modal-target="preventive-maintenance" data-modal-toggle="preventive-maintenance" class="text-blue-500 bg-white hover:bg-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center shadow-lg md:shadow-xl">See Photo</button>
                     </div>
                 </div>
-            </div> 
+            </div>
+
+            <div class="ml-5 font-poppins flex-row h-96 w-64 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/electrical.jpg);">
+                <div class="px-5 pb-5 justify-end">
+                    <a href="#">
+                        <h5 class="text-lg font-light tracking-tight text-white mt-72">Electronic Panel</h5>
+                    </a>
+                    <div class="flex items-center justify-between mt-2">
+                        <button data-modal-target="electronic-panel" data-modal-toggle="electronic-panel" class="text-blue-500 bg-white hover:bg-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center shadow-lg md:shadow-xl">See Photo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-5 font-poppins flex-row h-96 w-64 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/mobileapps.jpg);">
+                <div class="px-5 pb-5 justify-end">
+                    <a href="#">
+                        <h5 class="text-lg font-light tracking-tight text-white mt-72">Website Development</h5>
+                    </a>
+                    <div class="flex items-center justify-between mt-2">
+                        <button data-modal-target="mobile-apps" data-modal-toggle="mobile-apps" class="text-blue-500 bg-white hover:bg-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center shadow-lg md:shadow-xl">See Photo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-5 font-poppins flex-row h-96 w-64 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/charging.jpg);">
+                <div class="px-5 pb-5 justify-end">
+                    <a href="#">
+                        <h5 class="text-lg font-light tracking-tight text-white mt-72">EV Charging</h5>
+                    </a>
+                    <div class="flex items-center justify-between mt-2">
+                        <button data-modal-target="charging" data-modal-toggle="charging" class="text-blue-500 bg-white hover:bg-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center shadow-lg md:shadow-xl">See Photo</button>
+                    </div>
+                </div>
+            </div>
+
         </div>        
     </section>   
     <!-- Product Section End -->
-
 
 
     <!-- Contact Section Start -->
@@ -158,59 +179,147 @@
                         <h3 class="text-lg font-semibold tracking-tight text-gray-900">
                             <a href="https://wa.me/+6285190060033">Phone Number</a>
                         </h3>
-                        <p class="mt-2">(+62) 851 9006 0033</p>
+                        <p class="mt-2">(+62) 899 8726 260</p>
                     </div>
                     <div class="text-center text-gray-500 md:-ml-28">
                         <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 rounded-full" src="assets/img/icon-mail.png" alt="Mail">
                         <h3 class="text-lg font-semibold tracking-tight text-gray-900">
                             <a href="mailto: tristar.wd@gmail.com">Mail Address</a>
                         </h3>
-                        <p class="mt-2">tristar.wd@gmail.com</p>
+                        <p class="mt-2">fatriandn@gmail.com</p>
                     </div>
                 </div>  
             </div>
         </section>
     <!-- Contact Section End -->
-    
-
-    <!-- Footer Section Start -->
-    <footer class="bg-gray-900 font-poppins">
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
-                <div class="mb-0 md:mb-0 mt-4 md:mt-0">
-                    <a href="" class="flex items-center">
-                        <img src="assets/img/BIG TEXT WHITE.png" class="h-16 md:h-20 me-3" alt="FlowBite Logo" />
-                    </a>
-                </div>
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mt-10 md:mt-0">
-                    <div>
-                        <h2 class="mb-6 text-sm font-medium  uppercase text-white">Follow us</h2>
-                        <ul class="text-gray-400 font-normal">
-                            <li class="mb-4">
-                                <a href="https://www.facebook.com/profile.php?id=61557077165491&mibextid=LQQJ4d" class="hover:underline ">Facebook Page</a>
-                            </li>
-                            <li class="mb-4 md:mb-0">
-                                <a href="https://www.facebook.com/share/sZC2RhDVAsGyGSAn/?mibextid=kFxxJD" class="hover:underline">Facebook Account</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between text-gray-400">
-                <span class="text-sm sm:text-centertext-gray-400">© 2024 <a href="https://tristarwaterdetector.com"
-                        class="hover:underline">PT. Tristar Anugrah Perkasa</a>. All Rights Reserved.
-                </span>
-            </div>
-            <ul class="text-gray-400 font-normal text-sm mt-5">
-                <li class="">
-                    <a href="#" class="hover:underline">Depok, West Java, Indonesia</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
+
+
+
+
+  <!-- Main modal -->
+  <div id="preventive-maintenance" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+      <div class="relative p-4 w-full max-w-2xl max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-white font-poppins rounded-xl shadow">
+              <!-- Modal header -->
+              <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+                  <h3 class="text-xl font-semibold text-gray-900">
+                      Preventive Maintenance
+                  </h3>
+                  <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="preventive-maintenance">
+                      <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                  </button>
+              </div>
+              <!-- Modal body -->
+              <div class="p-4 md:p-5 space-y-4">
+                  <p class="text-base leading-relaxed text-gray-500">
+                      Pastahli kami siap mengidentifikasi dan memperbaiki segala permasalahan bangunan, dari struktur hingga fasilitas, memastikan gedung Anda selalu dalam kondisional yang optimal untuk mencegah gangguan yang tidak diinginkan.
+                  </p>
+              </div>
+              <!-- Modal footer -->
+              <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+                  <button data-modal-hide="preventive-maintenance" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div id="electronic-panel" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white font-poppins rounded-xl shadow">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+                <h3 class="text-xl font-semibold text-gray-900">
+                    Electronic Panel
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="electronic-panel">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4">
+                <p class="text-base leading-relaxed text-gray-500">
+                    Performa elektronik tanpa gangguan! Perawatan rutin menjaga komponen elektronik tetap bersih, terhubung dengan baik, dan bebas dari kerusakan, sehingga memastikan kinerja maksimal dan umur panjang perangkat Anda.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+                <button data-modal-hide="electronic-panel" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="mobile-apps" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white font-poppins rounded-xl shadow">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+                <h3 class="text-xl font-semibold text-gray-900">
+                    Custom Website Development
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="mobile-apps">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4">
+                <p class="text-base leading-relaxed text-gray-500">
+                    Bangun identitas digital yang memukau! Dengan layanan Custom Website Development, kami menciptakan situs web yang menarik, responsif, dan disesuaikan dengan kebutuhan bisnis Anda, memastikan pengalaman pengguna yang tak terlupakan.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+                <button data-modal-hide="mobile-apps" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="charging" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white font-poppins rounded-xl shadow">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+                <h3 class="text-xl font-semibold text-gray-900">
+                    Instalasi EV Charger
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="charging">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4">
+                <p class="text-base leading-relaxed text-gray-500">
+                    Pengisian kendaraan listrik yang aman dan efisien! Kami memastikan EV Charger Anda dalam kondisi prima, dengan koneksi yang kuat dan perangkat lunak terbaru, sehingga Anda dapat mengisi daya kendaraan dengan tenang dan cepat.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+                <button data-modal-hide="charging" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
