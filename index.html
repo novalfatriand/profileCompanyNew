@@ -289,7 +289,7 @@
         <!-- Last Row -->
 
         <div class="ml-2 md:ml-14 mt-4 mx-auto w-full flex flex-nowrap flex-col md:flex-row md:max-w-[1240px]">
-            <div class="font-poppins flex-row h-96 w-56 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/accesscontroldoor.jpg);">
+            <div class="font-poppins flex-row h-96 w-60 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/accesscontroldoor.jpg);">
                 <div class="px-5 pb-5 justify-end">
                     <a href="#">
                         <h5 class="text-base font-light tracking-tight text-white mt-72">Access Control Door</h5>
@@ -300,7 +300,7 @@
                 </div>
             </div>
 
-            <div class="ml-3 font-poppins flex-row h-96 w-56 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/freshairfan.jpg);">
+            <div class="ml-3 font-poppins flex-row h-96 w-60 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/freshairfan.jpg);">
                 <div class="px-5 pb-5 justify-end">
                     <a href="#">
                         <h5 class="text-base font-light tracking-tight text-white mt-72">Fresh Air Fan</h5>
@@ -311,7 +311,7 @@
                 </div>
             </div>
 
-            <div class="ml-3 font-poppins flex-row h-96 w-56 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/building1.jpg);">
+            <div class="ml-3 font-poppins flex-row h-96 w-60 rounded-[25px] shadow-xl mt-3 md:mt-0 bg-cover bg-center" style="background-image: url(assets/img/building1.jpg);">
                 <div class="px-5 pb-5 justify-end">
                     <a href="#">
                         <h5 class="text-base font-light tracking-tight text-white mt-[262px]">Perbaikan Permasalahan Gedung</h5>
@@ -362,7 +362,7 @@
 
 
   <!-- Main modal -->
-  <div id="preventive-maintenance" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+<div id="preventive-maintenance" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
       <div class="relative p-4 w-full max-w-2xl max-h-full">
           <!-- Modal content -->
           <div class="relative bg-white font-poppins rounded-xl shadow">
@@ -379,6 +379,35 @@
                   </button>
               </div>
               <!-- Modal body -->
+              <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pmlistrik.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pmhydrantbox.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
               <div class="p-4 md:p-5 space-y-4">
                   <p class="text-base leading-relaxed text-gray-500">
                       Pastahli kami siap mengidentifikasi dan memperbaiki segala permasalahan bangunan, dari struktur hingga fasilitas, memastikan gedung Anda selalu dalam kondisional yang optimal untuk mencegah gangguan yang tidak diinginkan.
@@ -390,10 +419,10 @@
               </div>
           </div>
       </div>
-  </div>
+</div>
 
 
-  <div id="electronic-panel" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+<div id="electronic-panel" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
     <div class="relative p-4 w-full max-w-2xl max-h-full">
         <!-- Modal content -->
         <div class="relative bg-white font-poppins rounded-xl shadow">
@@ -410,6 +439,35 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/panelelektronik2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/panelelektronik1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Performa elektronik tanpa gangguan! Perawatan rutin menjaga komponen elektronik tetap bersih, terhubung dengan baik, dan bebas dari kerusakan, sehingga memastikan kinerja maksimal dan umur panjang perangkat Anda.
@@ -472,6 +530,39 @@
                 </button>
             </div>
             <!-- Modal body -->
+            
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/charging2.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/charging1.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/charging3.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Pengisian kendaraan listrik yang aman dan efisien! Kami memastikan EV Charger Anda dalam kondisi prima, dengan koneksi yang kuat dan perangkat lunak terbaru, sehingga Anda dapat mengisi daya kendaraan dengan tenang dan cepat.
@@ -503,6 +594,32 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/cctv.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Kejelasan dan keamanan terjamin! Kami menjaga CCTV Anda dalam kondisi terbaik, mulai dari lensa yang bersih hingga koneksi yang kuat, memastikan setiap rekaman tajam dan tidak ada momen yang terlewat.
@@ -534,6 +651,35 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/soundsystem2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/soundsystem1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Nikmati kualitas suara sempurna! Dengan preventive maintenance, kami memastikan semua komponen sound system bekerja harmonis, bebas distorsi, dan siap memberikan pengalaman audio yang luar biasa.
@@ -565,6 +711,41 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/ac1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/ac2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/ac3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/ac4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Udara sejuk tanpa gangguan! Layanan perawatan kami memastikan filter bersih, refrigeran optimal, dan semua komponen AC bekerja dengan efisiensi tinggi, memberikan kenyamanan maksimal di setiap ruangan.
@@ -596,6 +777,38 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pompa1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pompa2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pompa3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Maksimalkan kinerja pompa Anda! Layanan preventive maintenance kami memastikan tidak ada kebocoran, filter bersih, dan aliran optimal, sehingga pompa Anda selalu siap bekerja dengan efisiensi terbaik.
@@ -627,6 +840,32 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/genset.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Genset selalu siap siaga! Dengan perawatan teratur, kami memastikan bahan bakar, oli, dan sistem pendingin dalam kondisi prima, sehingga genset Anda dapat diandalkan setiap saat untuk kebutuhan daya darurat.
@@ -689,6 +928,35 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pompasumpit2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/pompasumpit1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Kendali banjir yang efisien! Preventive maintenance pada pompa sump pit memastikan sistem drainase bebas hambatan dan selalu siap mengatasi air berlebih, melindungi properti Anda dari banjir.
@@ -751,6 +1019,38 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/aclift1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/aclift2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/aclift3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Kenyamanan di setiap lantai! Perawatan AC lift kami memastikan pendingin udara di dalam lift selalu berfungsi optimal, memberikan kenyamanan bagi penghuni dan tamu sepanjang perjalanan vertikal mereka.
@@ -782,6 +1082,32 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/accesscontrolsystem.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Keamanan akses yang canggih! Layanan maintenance kami menjaga sistem kontrol akses Anda tetap handal, memastikan hanya orang yang berwenang dapat masuk, memberikan ketenangan pikiran dan keamanan maksimal.
@@ -813,6 +1139,32 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/accesscontroldoor.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Perlindungan pintu akses! Kami memastikan setiap pintu dengan kontrol akses berfungsi sempurna, memberikan keamanan yang tak tertandingi dan menghindari akses yang tidak sah ke area penting.
@@ -844,6 +1196,32 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/accesscontrollift.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Keamanan tingkat tinggi di lift! Dengan preventive maintenance, kami memastikan hanya pengguna berwenang yang dapat mengakses lantai tertentu, meningkatkan keamanan dan pengendalian akses di gedung Anda.
@@ -906,6 +1284,36 @@
                 </button>
             </div>
             <!-- Modal body -->
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-72">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/freshairfan1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/logo/freshairfan2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+
             <div class="p-4 md:p-5 space-y-4">
                 <p class="text-base leading-relaxed text-gray-500">
                     Jaga udara segar mengalir tanpa henti! Layanan preventive maintenance Fresh Air Fan kami memastikan kebersihan filter, kelancaran aliran udara, dan kinerja motor yang optimal, sehingga ruangan Anda selalu terasa sejuk, bersih, dan nyaman.
