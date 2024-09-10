@@ -90,14 +90,14 @@
 
 
     <section id="cmms" class="bg-white px-6 py-6 items-center font-montserrat">
-        <div class="flex items-center justify-center mt-20">
-            <img class="h-[430px] max-w-full rounded-[17px] shadow-xl border border-gray-300" src="assets/img/logo/imagecmms.png" alt="Image CMMS">
+        <div class="flex items-center justify-center mt-10 md:mt-20">
+            <img class="h-full md:h-[430px] max-w-full rounded-lg md:rounded-[17px] shadow-xl border border-gray-300" src="assets/img/logo/imagecmms.png" alt="Image CMMS">
         </div>
         <div class="items-center text-center mt-9">
-            <h1 class="font-extrabold text-3xl text-[#0061AE]">Supported with CMMS Web App</h1>
+            <h1 class="font-bold md:font-extrabold text-[24px] md:text-3xl text-[#0061AE]">Supported with CMMS Web App</h1>
         </div>
-        <div class="items-center text-center px-28 mt-5 mb-5">
-            <p class="font-semibold text-gray-800 leading-tight text-[15px]">Optimalkan perawatan gedung Anda dengan <span class="font-bold">CMMS</span> yang cerdas! Kelola pemeliharaan, pantau aset, dan cegah downtime, semuanya dalam satu sistem terpusat. Dengan backup otomatis, keamanan data terjamin-tanpa resiko kehilangan. Hemat waktu, tingkatkan efisiensi, dan pastikan gedung Anda beroperasi maksimal!</p>
+        <div class="items-center text-center px-5 md:px-28 mt-3 md:mt-5 mb-0 md:mb-5">
+            <p class="font-medium md:font-semibold text-gray-800 leading-tight text-[15px]">Optimalkan perawatan gedung Anda dengan <span class="font-semibold md:font-bold">CMMS</span> yang cerdas! Kelola pemeliharaan, pantau aset, dan cegah downtime, semuanya dalam satu sistem terpusat. Dengan backup otomatis, keamanan data terjamin-tanpa resiko kehilangan. Hemat waktu, tingkatkan efisiensi, dan pastikan gedung Anda beroperasi maksimal!</p>
         </div>
     </section>
 
@@ -372,67 +372,63 @@
 </html>
 
 
-
-
-  <!-- Main modal -->
-<div id="preventive-maintenance" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
-      <div class="relative p-4 w-full max-w-2xl max-h-full">
-          <!-- Modal content -->
-          <div class="relative bg-white font-poppins rounded-xl shadow">
-              <!-- Modal header -->
-              <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                  <h3 class="text-xl font-semibold text-gray-900">
-                      Preventive Maintenance
-                  </h3>
-                  <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="preventive-maintenance">
-                      <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                      </svg>
-                      <span class="sr-only">Close modal</span>
-                  </button>
-              </div>
-              <!-- Modal body -->
-              <div id="controls-carousel" class="relative w-full" data-carousel="static">
-                <!-- Carousel wrapper -->
-                <div class="relative h-56 overflow-hidden md:h-72">
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="assets/img/logo/pmlistrik.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
-                    </div>
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="assets/img/logo/pmhydrantbox.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Charging">
-                    </div>
-                </div>
-                <!-- Slider controls -->
-                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
+<div id="preventive-maintenance" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
+    <div class="relative p-4 w-full max-w-3xl max-h-full flex">
+      <!-- Modal body -->
+      <div class="flex-1">
+        <div id="controls-carousel" class="relative w-full" data-carousel="static">
+          <!-- Carousel wrapper -->
+          <div class="relative h-56 overflow-hidden md:h-[422px] rounded-tl-xl rounded-bl-xl">
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="assets/img/logo/pmlistrik.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Charging">
             </div>
-
-              <div class="p-4 md:p-5 space-y-4">
-                  <p class="text-base leading-relaxed text-gray-500">
-                      Pastahli kami siap mengidentifikasi dan memperbaiki segala permasalahan bangunan, dari struktur hingga fasilitas, memastikan gedung Anda selalu dalam kondisional yang optimal untuk mencegah gangguan yang tidak diinginkan.
-                  </p>
-              </div>
-              <!-- Modal footer -->
-              <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
-                  <button data-modal-hide="preventive-maintenance" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Close</button>
-              </div>
-          </div>
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="assets/img/logo/pmhydrantbox.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Charging">
+            </div>
+          </div>          
+          <!-- Slider controls -->
+          <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
       </div>
-</div>
+      <!-- Modal header -->
+      <div class="flex-none w-[270px]">
+        <div class="relative bg-white font-poppins rounded-tr-xl rounded-br-xl shadow">
+          <!-- Modal header -->
+          <div class="flex items-center justify-between p-4 md:p-5 border-b">
+            <h3 class="text-xl font-semibold text-gray-900">
+              Preventive Maintenance
+            </h3>
+          </div>
+  
+          <div class="p-4 md:p-5 space-y-4">
+            <p class="text-sm leading-relaxed text-gray-600">
+              Pastahli kami siap mengidentifikasi dan memperbaiki segala permasalahan bangunan, dari struktur hingga fasilitas, memastikan gedung Anda selalu dalam kondisional yang optimal untuk mencegah gangguan yang tidak diinginkan.
+            </p>
+          </div>
+            <div class="flex items-center p-4 md:p-4">
+                <button data-modal-hide="preventive-maintenance" type="button" class="py-0.5 px-5 text-sm font-medium text-blue-700 focus:outline-none bg-white rounded-md border border-blue-700 hover:bg-gray-200 hover:text-blue-900 focus:z-10 focus:ring-4 focus:ring-gray-100">BACK</button>
+                <div class="flex-1"></div>
+                <button data-modal-target="electronic-panel" modal-toggle="electronic-panel" class="py-0.5 px-5 text-sm font-medium text-blue-700 focus:outline-none bg-white rounded-md border border-blue-700 hover:bg-gray-200 hover:text-blue-900 focus:z-10 focus:ring-4 focus:ring-gray-100">NEXT</button>
+            </div>        
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <div id="electronic-panel" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full rounded-xl">
