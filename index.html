@@ -72,7 +72,7 @@
             <img class="ml-0 md:ml-20 object-cover w-full h-full md:h-max md:w-[60rem] opacity-20" src="assets/img/worldmap.png" alt="About Image">
 
             <h1 class="font-montserrat -mt-[30rem] md:-mt-[21rem] mb-6 text-[26px] font-bold md:font-bold tracking-normal leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                Your Trustworthy <span class="text-yellow-300">Hi-Tech</span><br> Building Equipment Service</h1>
+                Your Trustworthy <span class="text-yellow-300 autotyping-hitech"></span><br> Building Equipment Service</h1>
             <p class="font-sans mx-3 md:mx-0 mb-72 text-lg md:text-xs font-light text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
                 We provide Technology based mechanical & electrical services.
             </p>
@@ -361,6 +361,19 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="assets/js/autotyping.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const exampleText = ['Hi-Tech'];
+            const exampleTyping = new AutoTyping('.autotyping-hitech', exampleText, {
+                typeSpeed: 60,
+                deleteSpeed: 50,
+                waitBeforeDelete: 2000,
+                waitBetweenWords: 500,
+            });
+            exampleTyping.start()
+        });
+    </script>
 </body>
 </html>
 
